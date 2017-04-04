@@ -1,4 +1,6 @@
-# Iowa_Liquor_Sales
+# Iowa Liquor Sales Project
+
+
 For the sale and distribution of goods, the most difficult part is making sure the supply chain mirrors the consumer demand. Arriving to a store with empty shelves or owning a store that has product on the shelf too long are products of an innaccurate supply chain model. This is a great real world situation to allow machine learning to do the heavy lifting and creating an accurate sales projection model. Using the first quarter of sales data for 2016 we can predict the sales for the full 2016 sales giving us a much more accurate model than just using the total sales for 2015. 
 
 
