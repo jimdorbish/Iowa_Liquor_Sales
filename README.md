@@ -15,3 +15,5 @@ The results of the two models trained on the 2015  dataset and tested on the 201
 
 
 ![alt text](https://github.com/jayghez/Iowa_Liquor_Sales/blob/master/final_results_Iowa.png)
+
+![alt text](https://github.com/jayghez/Iowa_Liquor_Sales/blob/master/final_results_Iowa_2.png)
