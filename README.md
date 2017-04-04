@@ -14,4 +14,4 @@ Looking at total sales and dates, the liquor sold in the first quarter is propor
 The results of the two models trained on the 2015  dataset and tested on the 2016 dataset show a model score of 98.40% for linear regression and 98.39% model fit for elastic net. Using the elastic net model 2016 total sales is predicted to be $278,358,955.68. These results were broken down per store for margin growth and sales growth for each year. 
 
 
-[(Iowa_Liquor_Sales/final_results_Iowa.png)]
+![alt text](Iowa_Liquor_Sales/final_results_Iowa.png)
