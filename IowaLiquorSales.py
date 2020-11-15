@@ -221,8 +221,8 @@ X = df3[['2015 q1 Sales']]
 y = df3['2015 Sales']
 lm.fit(X, y)
 predictions = lm.predict(X)
-print "Model fit:", lm.score(X, y)
-print lm.coef_[0], lm.intercept_
+print("Model fit:", lm.score(X, y))
+print(lm.coef_[0], lm.intercept_)
 
 plt.scatter(X, y)
 plt.plot(X, predictions)
@@ -254,9 +254,9 @@ total_2015 = sum(df4['2015 Sales'])
 X2 = df4[["2015 q1 Sales"]]
 pred_2015 = sum(lm.predict(X2))
 
-print "2015 predicted", pred_2015
-print "2015 actual", total_2015
-print "2016 predicted", total_2016
+print("2015 predicted", pred_2015)
+print("2015 actual", total_2015)
+print("2016 predicted", total_2016)
 
 
 # In[71]:
@@ -267,11 +267,11 @@ print "2016 predicted", total_2016
 
 lm = linear_model.LinearRegression()
 X = df4[["2015 q1 Sales"]]
-print len(X)
+print(len(X))
 y = df4["2015 Sales"]
 lm.fit(X, y)
 predictions = lm.predict(X)
-print "Model fit:", lm.score(X, y)
+print("Model fit:", lm.score(X, y))
 
 
 plt.scatter(X, y)
@@ -293,9 +293,9 @@ total_2015 = sum(df4["2015 Sales"])
 X2 = df4[["2015 q1 Sales"]]
 pred_2015 = sum(lm.predict(X2))
 
-print "2015 predicted", pred_2015
-print "2015 actual", total_2015
-print "2016 predicted", total_2016
+print("2015 predicted", pred_2015)
+print("2015 actual", total_2015)
+print("2016 predicted", total_2016)
 
 
 # In[75]:
@@ -313,11 +313,11 @@ l1_ratios = np.linspace(0.01, 1.0, 5)
 lm = linear_model.ElasticNetCV(l1_ratio=l1_ratios, n_alphas=10, cv=5,
                             verbose=1)
 X = df4[["2015 q1 Sales"]]
-print len(X)
+print(len(X))
 y = df4["2015 Sales"]
 lm.fit(X, y)
 predictions = lm.predict(X)
-print "Model fit:", lm.score(X, y)
+print("Model fit:", lm.score(X, y))
 
 plt.scatter(X, y)
 plt.plot(X, predictions)
@@ -339,9 +339,9 @@ total_2015 = sum(df4["2015 Sales"])
 X2 = df4[["2015 q1 Sales"]]
 pred_2015 = sum(lm.predict(X2))
 
-print "2015 predicted", pred_2015
-print "2015 actual", total_2015
-print "2016 predicted", total_2016
+print("2015 predicted", pred_2015)
+print("2015 actual", total_2015)
+print("2016 predicted", total_2016)
 
 
 # In[81]:
